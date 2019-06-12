@@ -299,6 +299,17 @@ h6 {
       height: 500px;
 }
 
+.projectName {
+      color: #fff;
+      text-decoration: none;
+}
+
+.projectName:hover {
+      color: #0000ff;
+      cursor: pointer;
+      text-decoration: none;
+}
+
 .project1 {
       background: #0000ff no-repeat 50% 50%;
       /* background: url(images/PaperYouTubeIcon.jpg) no-repeat 50% 50%; */
