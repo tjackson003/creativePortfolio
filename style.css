@@ -398,11 +398,13 @@ h6 {
 }
 
 .image5 {
-      background: url(images/vlogvilleBackgroundWhite.png) no-repeat 50%;
+      background: url(images/vlogvilleBackgroundWhite.png) no-repeat 100%;
+      background-size: cover;
 }
 
 .image6 {
       background: url(images/projectSodaPoster.png) no-repeat 100%;
+      background-size: cover;
 }
 
 .project4 {
