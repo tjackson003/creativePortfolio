@@ -302,6 +302,7 @@ h6 {
 .projectName {
       color: #fff;
       text-decoration: none;
+      transition: color .25s ease-out;
 }
 
 .projectName:hover {
