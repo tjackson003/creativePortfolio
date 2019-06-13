@@ -297,6 +297,17 @@ h6 {
 
 .project {
       height: 500px;
+      filter: grayscale(100%);
+      transition: filter .25s ease-in-out;
+}
+
+.project:hover {
+      cursor: pointer;
+      filter: grayscale(0%);
+}
+
+.projectImg {
+      height: 500px;
 }
 
 .projectName {
@@ -312,8 +323,8 @@ h6 {
 }
 
 .project1 {
-      background: #0000ff no-repeat 50% 50%;
-      /* background: url(images/PaperYouTubeIcon.jpg) no-repeat 50% 50%; */
+      /* background: #0000ff no-repeat 50% 50%; */
+      background: url(images/geniusThumbnail.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -330,9 +341,17 @@ h6 {
       bottom: 0;
 }
 
+.image {
+      background: url(images/CV_SHORTIE_TB.jpg) no-repeat 60% 45%;
+}
+
+.image2 {
+      background: url(images/PaperYouTubeIcon.jpg) no-repeat 50%;
+}
+
 .project2 {
-      background: #0000ff no-repeat 50% 50%;
-      /* background: url(images/APrettyNeatPodcastSkyBlue.png) no-repeat 50% 50%; */
+      /* background: #0000ff no-repeat 50% 50%; */
+      background: url(images/apnpVideoBuster.png) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -349,9 +368,19 @@ h6 {
       bottom: 0;
 }
 
+.image3 {
+      background: url(images/APrettyNeatPodcastSkyBlue.png) no-repeat 50%;
+      background-size: cover;
+}
+
+.image4 {
+      background: url(images/giphy\ \(12\).gif) no-repeat 100%;
+      background-size: cover;
+}
+
 .project3 {
-      background: #0000ff no-repeat 50% 50%;
-      /* background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat 50% 50%; */
+      /* background: #0000ff no-repeat 50% 50%; */
+      background: url(images/dpoeCommOrange.png) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -368,9 +397,17 @@ h6 {
       bottom: 0;
 }
 
+.image5 {
+      background: url(images/vlogvilleBackgroundWhite.png) no-repeat 50%;
+}
+
+.image6 {
+      background: url(images/projectSodaPoster.png) no-repeat 100%;
+}
+
 .project4 {
-      background: #0000ff no-repeat 50% 50%;
-      /* background: url(images/bsuTonight.jpg) no-repeat 50% 50%; */
+      /* background: #0000ff no-repeat 50% 50%; */
+      background: url(images/citrusPunch.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -385,6 +422,14 @@ h6 {
       left: 90%;
       right: 0;
       bottom: 0;
+}
+
+.image7 {
+      background: url(images/PaperYouTubeIcon.jpg) no-repeat 100%;
+}
+
+.image8 {
+      background: url(images/PaperYouTubeIcon.jpg) no-repeat 100%;
 }
 
 @media(max-width: 768px) {
@@ -538,9 +583,9 @@ h6 {
       margin-top: 120px;
 }
 
-.image {
-      background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
-}
+/* .image {
+      background: url(images/PaperYouTubeIcon.jpg) no-repeat 100%;
+} */
 
 /*--------------- contact form --------------- */
 
