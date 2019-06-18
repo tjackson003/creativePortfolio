@@ -398,7 +398,7 @@ h6 {
 }
 
 .image5 {
-      background: url(images/vlogvilleBackgroundWhite.png) no-repeat 100%;
+      background: url(images/dpoeCommOrange.png) no-repeat 100%;
       background-size: cover;
 }
 
@@ -427,11 +427,11 @@ h6 {
 }
 
 .image7 {
-      background: url(images/PaperYouTubeIcon.jpg) no-repeat 100%;
+      background: url(images/bsuTonightFamily.jpg) no-repeat 50% 50%;
 }
 
 .image8 {
-      background: url(images/PaperYouTubeIcon.jpg) no-repeat 100%;
+      background: url(images/bsuTonight.jpg) no-repeat 50%;
 }
 
 @media(max-width: 768px) {
